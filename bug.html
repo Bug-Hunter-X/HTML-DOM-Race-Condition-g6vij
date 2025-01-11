@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <div id="myDiv"></div>
+  <script>
+    //This will throw an error in some browsers because 'myDiv' is not found before the script executes.
+    document.getElementById('myDiv').innerHTML = 'Hello'; 
+  </script>
+</body>
+</html>
