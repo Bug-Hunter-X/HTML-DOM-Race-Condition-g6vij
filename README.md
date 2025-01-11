@@ -1,0 +1,3 @@
+# HTML DOM Race Condition
+This repository demonstrates a race condition bug in HTML where a script attempts to access a DOM element before it is fully parsed and available in the DOM.  This can result in unexpected errors, particularly in browsers with different parsing speeds or optimization strategies.
+The `bug.html` file contains the problematic code. The `bugSolution.html` file shows the corrected code.
